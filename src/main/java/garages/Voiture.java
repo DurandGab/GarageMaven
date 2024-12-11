@@ -105,6 +105,7 @@ public class Voiture {
 			for (Stationnement s : myStationnements) {
 				if (s.getGarageVisite().equals(g)) {
 					out.println("\t" + s);
+
 				}
 			}
 		}
